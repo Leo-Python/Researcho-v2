@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="stylesheets/Login.css"></link>
+    <script src="javascripts/P_Signup.js"></script>
+</head>
+
+<body>
+    
+    <button class="X" onclick="Move('/')"></button>
+
+    <div class="Main">
+        
+        
+        <span Class="Welcome">Sign up</span>
+        <div class="ImageSide"></div>
+        
+
+        <form id="Form" onsubmit="event.preventDefault(); ValidateForm()">
+
+            
+            <input name="Email" type="text" id="Email" type="text" class="Email" >
+                <span  class="OverText" style="top: 8.4vw;">Email</span>
+            </input>
+
+            
+            <input name="Password" type="password" id="Pswrd" type="password" class="Password">
+                <span class="OverText" style="top: 13.1vw;">Password</span>
+            </input>
+            
+            <button type="submit" class="Start" id="start">Start!</button>
+
+        </form>
+       
+
+
+
+
+
+
+        <p class="OverText" style="top:21.7vw; left:5vw; font-size: 0.8vw;">Already have an account?</p>
+        <p onclick="Move('/login')" class="OverText SU" style="top:21.7vw; left:14.4vw; font-size: 0.8vw;">Log in!</p>
+    
+    </div>
+   
+
+    
+</body>

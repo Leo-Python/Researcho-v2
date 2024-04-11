@@ -1,0 +1,114 @@
+html
+{
+    width: 400px;  /* max: 800px */
+    height: 300px; /* max: 600px */
+    text-align: center;
+}
+
+.main {
+    width: 75vw;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    left: 25vw;
+    top: 10vh;
+    position: absolute;
+    
+    border: solid;
+    border-width:1px;
+    border-color: #A6A6A6;
+
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+
+}
+.topbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: #D9D9D9;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: solid;
+    border-width:1px;
+    border-color: #A6A6A6;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.center {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+
+    
+}
+
+.user{
+    position: absolute;
+    text-align: center;
+    width: 70vw;
+    height: 10vw;
+    background-color: #e2e5e4;
+
+    border: solid;
+    border-width:1px;
+    border-radius: 4px;
+    font-size: 150%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30%;
+    left: 15vw;
+}
+.pass{
+    position: absolute;
+    text-align: center;
+    width: 70vw;
+    height: 10vw;
+    background-color: #e2e5e4;
+
+    border: solid;
+    border-width:1px;
+    border-radius: 4px;
+    font-size: 150%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    top: 55%;
+    left: 15vw;
+}
+
+
+button {
+    position: absolute;
+    text-align: center;
+    width: 40vw;
+    height: 10vw;
+    background-color: #00BF63;
+
+    border: solid;
+    border-width:0px;
+    border-radius: 4px;
+    font-size: 150%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    top: 80%;
+    left: 30vw;
+    
+
+}
+button:hover{
+    cursor: pointer;
+}

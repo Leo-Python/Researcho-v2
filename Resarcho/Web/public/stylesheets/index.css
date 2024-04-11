@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: Archivo-Black;
+    src: url("/Fonts/ArchivoBlack-Regular.ttf");
+}
+
+.Taskbar {
+    width: 100vw;
+    height: 7vh;
+    background-color: #ffffff00;
+    position: fixed;
+    margin: 0; padding:0;
+    top:0; left:0;
+    z-index: 2;
+    
+}
+
+.MenuButton {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: 3vh;
+    width: 6vw;
+    top: 2vh;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: none ;
+    font-size: 2vh;
+    transition: 0.2s;
+}
+
+.Login {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: 3.5vh;
+    width: 12vh;
+    top: 0.9vw;
+    color: rgb(255, 255, 255);
+
+    border: 1px solid white;
+
+    background-color: #d04b4b00;
+    
+    font-size: 1vw;
+    transition: 0.3s;
+}
+.SignIn {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: 3.5vh;
+    width: 12vh;
+    top: 0.8vw;
+    color: rgb(255, 255, 255);
+
+    border: 1px solid white;
+
+    background-color: #d04b4b00;
+    
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
+.Login:hover {
+    background-color: white;
+    color:#5259b7;
+    cursor: pointer;
+    top: +1.4vh;
+    
+}
+.SignIn:hover {
+    background-color: white;
+    color:#5259b7;
+    cursor: pointer;
+    top: +1.4vh;
+    
+}
+
+.MenuButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    top: +1.8vh;
+}
+
+.Detail {
+
+
+    width: 100vw;
+    height: 55vh;
+    background-color: #1b1b5c;
+    position: fixed;
+    margin: 0; padding:0;
+    top:0; left:0;
+    z-index: 1;
+    
+    
+}
+
+
+
+.MainTitle {
+
+
+    font-family: Archivo-Black;
+    font-size: 3.3vw;
+   
+    height: 10%;
+    position: fixed;
+    width: 30%;
+    left: 7vw;
+    top: 4vh;
+    
+    color: aliceblue;
+
+    
+
+
+}
+.Slogan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    
+    height: 10%;
+    position: fixed;
+    width: 30%;
+    left: 7vw;
+    top: 29vh;
+    
+    color: aliceblue;
+}
+.Start{
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    
+    height: 5vh;
+    width: 10vw;
+    left: 7vw;
+    top: 39vh;
+    
+    
+    color: rgb(255, 255, 255);
+    background-color: #303ce6;
+
+    border: none;
+    border-radius: 4px;
+    
+    font-size: 1.2vw;
+    transition: 0.2s;
+
+}
+.Start:hover{
+    background-color: #2e37b6;
+    top: 38.7vh;
+    cursor:pointer;
+}
+

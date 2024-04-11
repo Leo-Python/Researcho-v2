@@ -1,0 +1,220 @@
+body {
+
+    background-image: url(/images/Blur.jpg);
+
+}
+@font-face {
+    font-family: Archivo-Black;
+    src: url("/Fonts/ArchivoBlack-Regular.ttf");
+    font-family: Kanit-Light;
+    src: url("/Fonts/Kanit-Light.ttf")
+}
+
+.Main {
+
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    
+}
+.ImageSide {
+
+    width: 18vw;
+    height: 35vw;
+    margin: auto;
+    
+    position: fixed;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+
+    background-color: #1b1b5c;
+    border-radius: 0px 10px 10px 0px; 
+}
+
+    
+
+
+.Welcome {
+
+    font-family: Kanit-Light;
+    font-size: 2.3vw;
+
+    height: 10%;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    top: 4vh;
+
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    color: #1b1b5c;
+    font-weight: 00;
+    
+
+}
+
+
+
+.OverText {
+    font-family: Kanit-Light;
+    
+    text-align: center;
+    left: 3.5vw;
+    font-size: 1.2vw;
+    position: absolute;
+    
+}
+
+.Email {
+
+    width: 14vw;
+    height: 2vw;
+    margin: auto;
+    
+    position: fixed;
+    top: 35%;
+    left: 10%;
+    
+
+    background-color: rgb(255, 255, 255);
+    
+    border: solid;
+    border-color: #cfcfcf;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 1vw;
+    
+
+    
+
+}
+
+
+.Password {
+
+    width: 14vw;
+    height: 2vw;
+    margin: auto;
+    
+    position: fixed;
+    top: 59%;
+    left: 10%;
+    
+
+    background-color: rgb(255, 255, 255);
+    
+    border: solid;
+    border-color: #cfcfcf;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 1vw;
+    
+    border-radius: 10px;
+    
+
+}
+Password:focus, input:focus{
+    outline: none;
+    border-radius: 10px;
+}
+
+.Start{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  
+    
+    
+    color: rgb(255, 255, 255);
+    background-color: #303ce6;
+
+    border: none;
+    border-radius: 4px;
+    
+    height: 2.5vw;
+    position: fixed;
+    width: 9vw;
+    text-align: center;
+    top: 75%;
+    left:17%;
+    font-size: 1.3vw;
+    transition: 0.1s;
+
+}
+.Start:hover{
+    background-color: #171d7a;
+}
+
+.X {
+    width: 1.5vw;
+    height: 3vh;
+    background-image: url("/images/X.png");
+    background-size: contain;
+    border: none;
+    left:96vw;
+    top:2vh;
+    position: absolute;
+    
+}
+.X:hover {
+    
+    cursor: pointer;
+    background-color: unset 
+}
+
+.SU {
+    position: absolute;
+    color: #171d7a;;
+    font-weight: bold;
+
+}
+.SU:hover {
+    
+    cursor: pointer;
+    
+    
+}
+
+
+.failMail {
+
+
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7vw;
+    font-weight: bold;
+
+    top:10.5vw;
+    left: 7vw;
+    position: absolute;
+    
+
+
+}
+
+.failPass {
+
+
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7vw;
+    font-weight: bold;
+
+    top:19.1vw;
+    left: 9.40vw;
+    position: absolute;
+
+
+}

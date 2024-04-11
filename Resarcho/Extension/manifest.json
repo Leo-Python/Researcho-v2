@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Resarcho",
+    "description": "Provides a better experience for your studies",
+    "version": "1.0",
+    "action": {
+      "default_popup": "login.html",
+      "default_icon": "icon.png"
+    },
+    "host_permissions": ["http://127.0.0.1:3000/login"]
+    
+  }
