@@ -30,6 +30,7 @@ router.post('/', async function(req, res) {
   {
     res.send(200);
     let NewAcc = CreateUser(Mail, HashPass);
+    
   }   
 });
 

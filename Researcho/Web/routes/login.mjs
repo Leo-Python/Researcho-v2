@@ -38,7 +38,7 @@ router.post('/', async function(req, res) {
       ID: UserID
     };
     let Data = req.session.user
-    res.render('dashboard', {Data});
+    res.render("Dashboard", {Data});
    
     
 
@@ -47,7 +47,8 @@ router.post('/', async function(req, res) {
 
 });
 
-router.options('/auth', async function(req, res) {
+router.post('/auth', async function(req, res) {
+  console.log("Session " + JSON.stringify(req.session.user));
   let MailValue = req.body.Email;
   let Password = req.body.Pass;
   let HashedPass = await Hash(Password)
@@ -69,10 +70,12 @@ router.options('/auth', async function(req, res) {
       ID: UserID
     };
     let Data = req.session.user
-    res.render('externsion', {Data});
+    res.send(Data);
    
     
 
+  } else {
+    res.sendStatus(409)
   }
 
 });

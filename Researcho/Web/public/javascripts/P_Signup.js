@@ -37,16 +37,12 @@ function ValPass(Pswrd)
     } else { CreateError("Password requires atleast 12 characters", "failPass"); return false;}
 } 
 
-
-
-
 function ValidateForm() {
     
     let MailValue = document.getElementById("Email");
     
     let PassValue = document.getElementById("Pswrd")
 
-    
     let ValidPass = ValPass(PassValue.value);
     let ValidMail = ValMail(MailValue.value);
     
@@ -56,7 +52,6 @@ function ValidateForm() {
         return false
     }
     
-
     // Send fetch request 
     let FetchPromise = fetch('/signup', {
         method: 'POST',
@@ -80,14 +75,5 @@ function ValidateForm() {
             CreateError("Email already in use!", "failMail");
 
         }
-
-
     });
-    
-
-    
-    
-    
-    
-    
 }
