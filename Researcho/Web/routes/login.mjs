@@ -13,7 +13,19 @@ router.get('/', function(req, res, next) {
   }
   
 });
-
+router.get('/validateCookie', (req, res) => {
+  const connectCookie = req.cookies["connect.sid"];
+  console.log(connectCookie);
+  console.log("Validated cookies", req.signedCookies)
+  if (connectCookie) {
+    console.log("200")
+    res.sendStatus(200)
+      
+  } else {
+    console.log("404")
+      res.sendStatus(404);
+  }
+});
 router.post('/', async function(req, res) {
   console.log(req.body.Email, req.body.Pass)
 

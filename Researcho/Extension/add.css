@@ -1,0 +1,76 @@
+
+.Type {
+    
+    
+    position: fixed;
+    width: 100vw;
+    left: 53vw;
+    transform: translate(-50%, -50%);
+
+    color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 9vw;
+
+    
+}
+.CreateTitle {
+    
+    height: 4vh;
+    width: 100vw;
+    
+    position: fixed;
+    top: 1%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    
+    
+
+    color: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15vw;
+}
+.CreateInput {
+    width: 80vw;
+    height: 5vh;
+    background-color: #f6f6f6;
+    border: solid;
+    border-color: #e7e7e7;
+    border-width: 0.1vw;
+    border-radius: 0.1vw;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    text-align: left;
+    vertical-align: top;
+
+}
+.CreateButton {
+    width: 70vw;
+    height: 7vh;
+    background-color: #1e32c5;
+    border: solid;
+    
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+
+    top:80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    transition: 0.1s;
+}
+.CreateButton:hover {
+    background-color: #18279d;
+    cursor: pointer;
+}
+
+

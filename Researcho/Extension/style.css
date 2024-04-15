@@ -24,6 +24,9 @@ html
     text-align: center;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+
 .sidebar {
     width: 25vw;
     background-color: rgb(255, 255, 255);
@@ -36,9 +39,15 @@ html
     border-top: solid;
     border-width:1px;
     border-color: #A6A6A6;
+    overflow-y: scroll;
+    
 
     
 }
+.sidebar::-webkit-scrollbar {
+    display: none;
+  }
+  
 
 .main {
     width: 75vw;
@@ -57,17 +66,16 @@ html
 }
 
 h1 {
-    text-align: center;
-}
-h3 {
     position: relative;
     text-align: center;
-    top: 10%;
+    top:15vw;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    top: 17vw;
 
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: rgb(101, 101, 101);
+    
 
 }
 

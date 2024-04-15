@@ -1,13 +1,26 @@
-{
-    "manifest_version": 3,
-    "name": "Resarcho",
-    "description": "Provides a better experience for your studies",
-    "version": "1.0",
+
+  {
+    "name": "Researcho",
+    "description": "Makes studying easy.",
+    "version": "0.7",
+    "permissions": ["cookies","contextMenus", "storage", "sidePanel"],
+    
+    "background": {
+      "service_worker": "background.js"
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
     "action": {
       "default_popup": "login.html",
       "default_icon": "icon.png"
     },
-    "permissions": ["cookies"],
-    "host_permissions": ["http://127.0.0.1:3000/*"]
+    "host_permissions": ["http://127.0.0.1:3000/*"],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
     
+    "manifest_version": 3
   }
